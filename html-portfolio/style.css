@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,300&family=Oswald:wght@500&family=Roboto+Slab:wght@500&display=swap');
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+.bg-img {
+  height: 100vh;
+  width: 100vw;
+  filter: brightness(1.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+.heading h1 {
+  color: white;
+  position: absolute;
+  top: 34%;
+  left: 133px;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+  letter-spacing: 5px;
+    animation: text 3s steps(100);
+}
+
+
+
+div .paragraph {
+  right: 50px;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 133px;
+position: fixed;
+}
+
+.icon img {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 90px;
+  top: 0;
+}
+
+.icon h2 {
+  position: absolute;
+  color: white;
+  left: 220px;
+  top: 40px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+
+  margin-bottom: 20px;
+}
+
+.icon h4 {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  top: 75px;
+  left: 220px;
+  font-family: 'Oswald', sans-serif;
+}
+
+@keyframes text {
+    0%{
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 4px;
+        margin-bottom: -40px;
+    }
+}
+
+
+
+.button {
+  position: absolute;
+  top: 65%;
+  left: 130px;
+}
+
+
+@media (max-width:400px){
+
+
+  .icon img {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 50px;
+    top: 0;
+  }
+
+  .icon h2 {
+    position: absolute;
+    color: white;
+    left: 152px;
+    top: 31px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+  
+    margin-bottom: 20px;
+  }
+
+  .icon h4 {
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    top: 69px;
+    left: 148px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+
+  div .paragraph {
+    right: 10px;
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 84px;
+  display: block;
+  }
+
+  .heading h1 {
+    color: white;
+    position: absolute;
+    top: 24%;
+    left: 80px;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    letter-spacing: 4px;
+      animation: text 3s steps(100);
+  }
+
+  .button {
+    position: absolute;
+    top: 60%;
+    left: 78px;
+  }
+
+
+
+}
